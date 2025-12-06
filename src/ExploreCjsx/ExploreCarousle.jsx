@@ -1,5 +1,5 @@
 import React, { useEffect, useRef } from 'react';
-import { Eternity } from '../../public/assets/assest';
+import { Eternity } from '../../public/assets/assest'
 import { Swiper, SwiperSlide } from 'swiper/react';
 import { EffectCoverflow } from 'swiper/modules';
 import 'swiper/css';

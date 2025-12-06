@@ -206,6 +206,12 @@ export const GojoImg = generateImageArray('./GojoImg/Img', 50, {
     namePrefix: 'Gojo'
 });
 
+export const ZenitsuImg = generateImageArray('./ZenitsuImg/Img', 36, {
+    prefix: 'Zentisu',
+    category: 'Zentisu',
+    namePrefix: 'Zentisu'
+});
+
 
 
 export const CombineImage = {
@@ -236,6 +242,7 @@ export const CombineImage = {
     sukuna_img: SukunaImg,
     throne_of_seal_img: ThroneOSealImg,
     gojo_img: GojoImg,
+    zenitsu_img: ZenitsuImg,
 }
 
 export const CategoryBanner = {
@@ -373,5 +380,10 @@ export const CategoryBanner = {
         banner: new URL('./ImageBanner/GojoBanner.jpg', import.meta.url).href,
         title: "Saturo Gojo",
         description: "Embrace the charisma and overwhelming power of Satoru Gojo, the strongest Jujutsu sorcerer, known for his Six Eyes and Limitless technique."
+    },
+    zenitsu_img: {
+        banner: new URL('./ImageBanner/ZenitsuBanner.jpeg', import.meta.url).href,
+        title: "Zenitsu Agatsuma",
+        description: "Zenitsu Agatsuma — the thunder-breathing prodigy whose fear turns into unmatched speed, striking like lightning in a single, perfect moment."
     },
 };

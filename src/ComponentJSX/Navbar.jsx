@@ -1,6 +1,7 @@
 import React, { useEffect, useState } from 'react'
 import '../ComponentCSS/Navbar.css'
 import '../ComponentCSS/SearchPop.css'
+import '../index.css'
 import { Link, useNavigate } from 'react-router-dom'
 import { useClerk, UserButton, useUser } from '@clerk/clerk-react'
 import { Eternity } from '../../public/assets/assest'
@@ -40,6 +41,8 @@ const Navbar = () => {
         { text: "Girls Fashion", path: "/explore/girlsfashion" },
         { text: "Free Fire", path: "/explore/freefire_wallpaper" },
         { text: "Boys Fashion", path: "/explore/boysfashion" },
+        { text: "Zenitsu", path: "/explore/zenitsu_img" },
+        { text: "Zenitsu Agatsuma", path: "/explore/zenitsu_img" },
     ];
 
     const filtered = suggestions.filter(s =>

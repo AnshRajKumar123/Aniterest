@@ -21,10 +21,7 @@
   --TacentColor2: #ffffff0f;
 }
 
-.FillThePath {
-  fill: #000;
-}
-
+.FillThePath,
 .FillthePath {
   fill: #000;
 }
