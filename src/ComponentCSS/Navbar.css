@@ -1,0 +1,211 @@
+.NavbarSet {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 80px;
+    padding: 0 3rem;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    color: #000;
+    z-index: 500;
+    box-shadow: 0 5px 6px -1px rgba(0, 0, 0, 0.2);
+    background-color: #e6fcf6;
+    backdrop-filter: blur(10px);
+}
+
+.FirstLineSet {
+    text-decoration: none;
+    color: #000;
+}
+
+.NavbarSet .FirstLineSet h1 {
+    font-size: 42px;
+    font-family: var(--Font2);
+    letter-spacing: 4px;
+    font-weight: 400;
+}
+
+.ThirdLineSet {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+}
+
+.LoginBtn {
+    background-color: red;
+    border: none;
+    color: #fff;
+    padding: 11px 30px;
+    font-size: 17px;
+    border-radius: 5px;
+    font-weight: 600;
+    cursor: pointer;
+    transition: 0.3s ease-in-out;
+}
+
+.TripleDot {
+    position: relative;
+    display: inline-block;
+}
+
+.InsideTripleDot {
+    height: 52px;
+    width: 52px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 26px;
+    border: none;
+    background-color: transparent;
+    color: #000;
+    cursor: pointer;
+    transition: 0.3s ease-in-out;
+}
+
+.UpInsideTriple {
+    position: absolute;
+    right: 0;
+    top: 100%;
+    padding-top: 8px;
+    opacity: 0;
+    pointer-events: none;
+    transition: 0.3s ease-in-out;
+}
+
+.HoverTripleDot {
+    width: 280px;
+    border-radius: 8px;
+    background-color: transparent;
+    backdrop-filter: blur(10px);
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+    background-color: #fff;
+    padding: 12px;
+}
+
+.HoverTripleDot div {
+    display: flex;
+    align-items: center;
+    padding: 11px 20px;
+    gap: 0.6rem;
+    transition: 0.3s ease-in-out;
+    cursor: pointer;
+    border-radius: 8px;
+}
+
+.HoverTripleDot div i {
+    font-size: 26px;
+}
+
+.HoverTripleDot div span {
+    font-size: 15px;
+    font-weight: 550;
+    letter-spacing: 0.3px;
+}
+
+.OptionsBtn {
+    position: relative;
+    display: inline-block;
+}
+
+.InsideOptions {
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+    padding: 13px 24px;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: 0.3s ease-in-out;
+}
+
+.InsideOptions span {
+    font-size: 16.5px;
+    font-weight: 600;
+}
+
+.InsideOptions i {
+    font-size: 24px;
+    transition: 0.3s ease-in-out;
+}
+
+.SecondLineSet {
+    position: absolute;
+    right: 0;
+    top: 100%;
+    padding-top: 8px;
+    opacity: 0;
+    pointer-events: none;
+    transition: 0.3s ease-in-out;
+}
+
+.InsideSecondLine {
+    display: flex;
+    flex-direction: column;
+    background-color: #fff;
+    border-radius: 8px;
+    width: 200px;
+    padding: 12px;
+    gap: 0.5rem;
+}
+
+.SecondLineSet a {
+    text-decoration: none;
+    color: #000;
+    font-size: 15px;
+    padding: 13px 24px;
+    border-radius: 7px;
+    transition: 0.3s ease-in-out;
+    font-weight: 600;
+}
+
+.SearchOnClick {
+    height: 50px;
+    width: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+    transition: 0.3s ease-in-out;
+    cursor: pointer;
+}
+
+.SearchOnClick i {
+    font-size: 24px;
+}
+
+/* ------------- Search Bar Box Funtion Styling ------------- */
+
+.DisplaySearchBox {
+    display: none;
+}
+
+/* ------------- Hover Stuff ------------- */
+
+.TripleDot:hover .UpInsideTriple,
+.OptionsBtn:hover .SecondLineSet {
+    opacity: 1;
+    pointer-events: auto;
+}
+
+.LoginBtn:hover {
+    background-color: rgb(214, 0, 0);
+}
+
+.OptionsBtn:hover .InsideOptions,
+.TripleDot:hover .InsideTripleDot,
+.SearchOnClick:hover {
+    background-color: #fff;
+}
+
+.HoverTripleDot div:hover,
+.SecondLineSet a:hover {
+    background-color: rgb(213, 250, 241);
+}
+
+.OptionsBtn:hover .InsideOptions i {
+    rotate: 180deg;
+}

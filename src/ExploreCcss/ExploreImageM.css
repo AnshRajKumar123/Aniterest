@@ -1,0 +1,171 @@
+.gallery-container {
+    padding: 20px;
+    position: relative;
+    top: 66px;
+    height: calc(100% - 66px);
+    margin: 2rem 0 5rem;
+}
+
+.back-btn {
+    margin-bottom: 16px;
+    padding: 8px 16px;
+    background: #2563eb;
+    /* blue */
+    color: white;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    transition: background 0.3s;
+}
+
+.back-btn:hover {
+    background: #1d4ed8;
+}
+
+.gallery-title {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 24px;
+    text-transform: capitalize;
+}
+
+.gallery-grid {
+    columns: 5;
+}
+
+.gallery-item {
+    position: relative;
+    overflow: hidden;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.4);
+    cursor: pointer;
+    max-width: 100%;
+    margin-bottom: 14px;
+}
+
+.gallery-item img {
+    width: 100%;
+    object-fit: cover;
+    display: block;
+    transition: 0.4s ease;
+}
+
+.gallery-item:hover img {
+    transform: scale(1.05);
+}
+
+/* Banner Section */
+.banner {
+    position: relative;
+    width: 80vw;
+    margin: 0 auto 3rem;
+    border-radius: 12px;
+    overflow: hidden;
+}
+
+.banner-img {
+    width: 100%;
+    height: 500px;
+    object-fit: cover;
+    display: block;
+    filter: brightness(80%);
+}
+
+.banner-content {
+    position: absolute;
+    bottom: 20px;
+    left: 30px;
+    color: white;
+    text-shadow: 0 2px 8px rgba(0, 0, 0, 0.8);
+}
+
+.banner-content h1 {
+    font-size: 40px;
+    margin-bottom: 8px;
+    font-family: var(--Font3);
+    line-height: 30px;
+}
+
+.banner-content p {
+    font-size: 16px;
+    max-width: 600px;
+    color: #ffffffc2;
+}
+
+/* --------------- Image Hover Styling --------------- */
+
+.OnHoverOptions {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    bottom: 0;
+    left: 0;
+    display: flex;
+    align-items: end;
+    justify-content: end;
+}
+
+.BezTransformer {
+    display: flex;
+    align-items: center;
+    transform: translateY(50px);
+    transition: 0.4s ease-in-out;
+}
+
+.BtnSame {
+    height: 45px;
+    width: 45px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 7px;
+    background-color: #fff;
+    margin-right: 15px;
+    color: #fff;
+}
+
+.DownloadBtn svg {
+    height: 26px;
+}
+
+.SaveBtn i {
+    color: #000;
+    font-size: 27px;
+    font-weight: 100;
+}
+
+ .gallery-item:hover .BezTransformer {
+    transform: translateY(0px);
+    margin-bottom: 12px;
+}
+
+.gallery-item:hover img {
+    filter: brightness(60%);
+}
+
+
+
+/* ------------------ Image PopUp Styling ------------------ */
+
+
+
+.ImagePopUp {
+    height: 100vh;
+    width: 100vw;
+    position: fixed;
+    top: 0;
+    left: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #000000ae;
+    z-index: 10000;
+}
+
+.InsideImagePop {
+    height: 85%;
+    width: 85%;
+    background-color: #fff;
+    border-radius: 12px;
+}
+

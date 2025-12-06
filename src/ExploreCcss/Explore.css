@@ -1,0 +1,19 @@
+.ExploreSetSection {
+    padding-top: 110px;
+    height: 100%;
+    width: 100%;
+}
+
+.ExploreSetSection .LatestHeader {
+    opacity: 0;
+    transition: 3s ease-in-out;
+    filter: blur(10px);
+}
+
+/* ---------------  Animation Is Here --------------- */
+
+.ExploreSetSection .LatestHeader.showAnimation {
+    opacity: 1;
+    transform: translateX(0);
+    filter: blur(0px);
+}

@@ -1,0 +1,20 @@
+.gallery-container1 {
+    padding: 120px 0 50px;
+    height: 100vh;
+}
+
+.gallery-grid1 {
+    width: 80vw;
+    margin: 0 auto;
+    columns: 5;
+}
+
+.banner h1 {
+    font-family: var(--Font4);
+    font-size: 35px;
+    font-weight: 350;
+}
+
+.banner p {
+    margin-left: 3px;
+}

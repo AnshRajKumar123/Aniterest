@@ -1,0 +1,73 @@
+.LatestLib {
+    height: 93vh;
+    padding: 5rem;
+}
+
+.BoxOfLatestLib {
+    margin: 6rem auto 0;
+    width: 86vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 14px;
+}
+
+.SmallAniLL {
+    overflow: hidden;
+    border-radius: 8px;
+    height: 450px;
+    width: 500px;
+    cursor: pointer;
+    position: relative;
+    transition: 0.3s ease-in-out;
+}
+
+.SmallAniLL img {
+    object-fit: cover;
+    width: 100%;
+    height: 100%;
+    transition: 0.3s ease-in-out;
+}
+
+.HovLatestLib {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    color: #fff;
+    padding: 11px 15px;
+    opacity: 0;
+    pointer-events: none;
+    transition: 0.4s ease-in-out;
+    overflow: hidden;
+    white-space: nowrap;
+    transform: translateY(50px);
+    background-color: #0000005f;
+    width: 100%;
+}
+
+.HovLatestLib h2 {
+    font-weight: 600;
+    font-family: var(--Font4);
+    font-size: 16px;
+    line-height: 20px;
+    letter-spacing: 0.7px;
+}
+
+.HovLatestLib .ShowMore p {
+    font-size: 13px;
+    font-weight: 550;
+}
+
+.SmallAniLL:hover {
+    transform: translateY(-15px);
+}
+
+.SmallAniLL:hover img {
+    filter: brightness(60%);
+}
+
+.SmallAniLL:hover .HovLatestLib {
+    opacity: 1;
+    pointer-events: auto;
+    transform: translateY(0px);
+}

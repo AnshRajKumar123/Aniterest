@@ -1,0 +1,167 @@
+.ExploreSectionSet {
+    margin-top: 3rem;
+}
+
+.ExploreSectionSet .LatestHeader {
+    margin-bottom: 6rem;
+}
+
+.ExploreCollageCircle {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 95vh;
+    position: relative;
+    margin-bottom: 12rem;
+}
+
+.MainCenterBoxCircle {
+    height: 400px;
+    width: 400px;
+    border-radius: 50%;
+    border: 3px solid #fff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    overflow: hidden;
+    text-decoration: none;
+    z-index: 30;
+    box-shadow: 0 0 10px 3px rgba(0, 0, 0, 0.3);
+}
+
+.MainCenterBoxCircle .FirstLineSet h1 {
+    font-size: 57px;
+    color: #fff;
+    text-shadow: 3px 5px 10px rgba(0, 0, 0, 0.6);
+}
+
+.MainCircleImageBox {
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    top: 0;
+    left: 0;
+    z-index: -1;
+}
+
+.MainCircleImageBox img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: bottom;
+}
+
+.SameHeWiCircle {
+    position: absolute;
+    height: 300px;
+    width: 300px;
+    background-color: red;
+    border-radius: 50%;
+    top: -10px;
+    border: 3px solid #fff;
+    box-shadow: 0 0 10px 3px rgba(0, 0, 0, 0.3);
+    overflow: hidden;
+}
+
+.SameHeWiCircle img {
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+.BoxCircle1D {
+    z-index: 10;
+}
+
+.BoxCircle2D {
+    left: 27%;
+    top: 110px;
+}
+
+.BoxCircle2D img,
+.BoxCircle3D img,
+.BoxCircle6D img {
+    object-position: top;
+}
+
+.BoxCircle3D {
+    left: 25%;
+    top: 370px;
+}
+
+.BoxCircle4D {
+    top: 580px;
+    left: 35%;
+}
+
+.BoxCircle5D {
+    top: 535px;
+    right: 32%;
+}
+
+.BoxCircle6D {
+    top: 310px;
+    right: 24%;
+}
+
+.BoxCircle7D {
+    right: 28%;
+    top: 60px;
+}
+
+.BoxCircle8D {
+    top: -80px;
+    left: 30px;
+}
+
+.BoxCircle9D {
+    top: 80%;
+    left: 30px;
+}
+
+.BoxCircle10D {
+    top: -80px;
+    right: 30px;
+}
+
+.BoxCircle11D {
+    top: 80%;
+    right: 30px;
+    z-index: 10;
+}
+
+.SpanDetailImageBox {
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 40px;
+    letter-spacing: 1px;
+    opacity: 0;
+    transition: 0.35s ease-in-out;
+    pointer-events: none;
+    z-index: 100;
+    top: 0;
+    left: 0;
+    background-color: rgba(0, 0, 0, 0.4);
+    z-index: 0;
+    cursor: pointer;
+}
+
+.SpanDetailImageBox span {
+    font-family: var(--Font2);
+    z-index: 200;
+    text-align: center;
+    color: #fff;
+    line-height: 40px;
+}
+
+.SameHeWiCircle:hover .SpanDetailImageBox {
+    opacity: 1;
+    pointer-events: auto;
+}

@@ -1,0 +1,188 @@
+.AboutSectionSet {
+    margin-top: 80px;
+}
+
+.DivOfBackImg {
+    height: calc(100vh - 80px);
+    padding-top: 80px;
+    width: 100vw;
+    position: relative;
+}
+
+.AboutTwoSection {
+    display: flex;
+    justify-content: center;
+    gap: 6rem;
+    width: 70%;
+    margin: 0 auto 50px;
+}
+
+.FirstAboutSect {
+    margin-top: 20px;
+}
+
+.FirstAboutSect h1 {
+    font-size: 52px;
+    font-family: var(--Font3);
+    letter-spacing: -2px;
+}
+
+.FirstAboutSect p {
+    font-weight: 500;
+    line-height: 23px;
+    margin-top: 10px;
+    color: #00000091;
+}
+
+#BezColor {
+    color: #66c7ff;
+}
+
+.SecondAboutSect img {
+    width: 400px;
+    height: 600px;
+    border-radius: 12px;
+    object-fit: cover;
+}
+
+.Box1What,
+.Box2What {
+    position: absolute;
+    bottom: 60px;
+    left: 100px;
+    font-weight: 550;
+    border: 1px solid rgba(0, 0, 0, 0.4);
+    border-top: none;
+    border-left: none;
+    padding: 30px 50px;
+}
+
+.Box2What {
+    left: 600px;
+    border: 1px solid rgba(0, 0, 0, 0.4);
+    border-top: none;
+    border-right: none;
+    padding: 30px 50px;
+    text-align: center;
+}
+
+#SmallText {
+    font-family: var(--Font2);
+    font-size: 25px;
+    letter-spacing: 1px;
+}
+
+#BigText {
+    font-size: 66px;
+    font-family: var(--Font2);
+    margin-top: 10px;
+    color: #66c7ff;
+}
+
+.SecondBoxDiv {
+    display: flex;
+    justify-content: center;
+    gap: 7rem;
+    width: 70%;
+    margin: 8rem auto;
+}
+
+.OneleDiv {
+    width: 70%;
+}
+
+.OneleDiv h1 {
+    font-size: 80px;
+    font-family: var(--Font3);
+    letter-spacing: -1px;
+    position: relative;
+    padding-left: 35px;
+}
+
+.OneleDiv h1::before {
+    position: absolute;
+    content: '';
+    height: 110%;
+    width: 10px;
+    background-color: #66c7ff;
+    top: -15px;
+    left: 0px;
+}
+
+.OneleDiv p {
+    font-weight: 500;
+    width: 100%;
+    margin: 25px 0 35px;
+}
+
+.BtnBottom {
+    text-decoration: none;
+    color: #fff;
+    border-radius: 8px;
+    font-weight: 500;
+    padding: 11px 30px;
+    background-color: #000;
+}
+
+.TwoleDiv {
+    width: 50%;
+    display: flex;
+    justify-content: start;
+    flex-direction: column;
+}
+
+.TwoleDiv h1 {
+    font-family: var(--Font3);
+    color: #66c7ff;
+}
+
+.BoxDivSet {
+    margin-top: 1.5rem;
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    pointer-events: none;
+}
+
+.FirstDivSet {
+    display: flex;
+}
+
+.FirstDivSet img {
+    width: 100px;
+    height: 100px;
+    object-fit: cover;
+    margin-right: 6px;
+}
+
+.DetailAboutWhat {
+    margin: 12px 0 0 1rem;
+}
+
+.DetailAboutWhat h1 {
+    font-size: 22px;
+    color: #000;
+    letter-spacing: -0.6px;
+    margin: 0;
+}
+
+.DetailAboutWhat p {
+    margin-top: 10px;
+    font-size: 14px;
+    font-weight: 500;
+    color: #000000a4;
+}
+
+.ThirdBoxDiv {
+    width: 50vw;
+    margin: 10rem auto 5rem;
+    text-align: center;
+}
+
+.ThirdBoxDiv p {
+    font-weight: 550;
+    font-family: var(--Font2);
+    font-size: 20px;
+    letter-spacing: 2px;
+    margin-bottom: 2rem;
+}

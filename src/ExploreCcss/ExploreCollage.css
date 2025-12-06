@@ -1,0 +1,164 @@
+.ExploreCollage {
+    margin: 4rem 0 10rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* pointer-events: none; */
+}
+
+.CenterLineCollage {
+    height: 520px;
+    width: 400px;
+    border: 25px solid #fff;
+    scale: 0;
+    transition: 1.5s ease-in-out;
+    opacity: 0;
+}
+
+.CenterLineCollage img {
+    object-fit: cover;
+    height: 100%;
+    width: 100%;
+}
+
+.StartLineCollage {
+    position: relative;
+    left: -90px;
+}
+
+.BoxCollageSet {
+    background-color: #000;
+    border: 12px solid #fff;
+    height: 200px;
+    width: 200px;
+    box-shadow: 0 0 10px 5px rgba(0, 0, 0, 0.2);
+}
+
+.BoxCollageSet img {
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    object-position: top;
+}
+
+.Box1Col,
+.Box3Col {
+    position: absolute;
+    top: -295px;
+    left: -320px;
+}
+
+.Box1Col::before,
+.Box2Col::before,
+.Box3Col::before,
+.Box4Col::before {
+    position: absolute;
+    content: '';
+    width: 1px;
+    height: 200px;
+    background-color: #000;
+    bottom: 103%;
+    left: 50%;
+}
+
+.Box1Col::after,
+.Box2Col::after,
+.Box3Col::after,
+.Box4Col::after {
+    position: absolute;
+    content: '';
+    bottom: calc(100% + 4px);
+    left: 50%;
+    transform: translate(-50%, 0);
+    width: 16px;
+    height: 8px;
+    background-color: #000;
+}
+
+.Box2Col,
+.Box4Col {
+    position: absolute;
+    top: -140px;
+    left: -190px;
+}
+
+.Box2Col::before {
+    height: 340px;
+}
+
+.Box3Col {
+    top: 15px;
+}
+
+.Box4Col {
+    top: 170px;
+}
+
+.LastLineCollage {
+    position: relative;
+    left: 400px;
+}
+
+.LastLineCollage .Box1Col,
+.LastLineCollage .Box3Col {
+    left: -180px;
+}
+
+.LastLineCollage .Box2Col,
+.LastLineCollage .Box4Col {
+    left: -320px;
+}
+
+.LastLineCollage .CenterLineCollage img {
+    object-position: center;
+}
+
+.OpacityAnimation1,
+.OpacityAnimation2,
+.OpacityAnimation3,
+.OpacityAnimation4 {
+    top: -680px;
+    transition: 2s ease-in-out;
+}
+
+.OpacityAnimation2 {
+    transition: 2.8s ease-in-out;
+}
+
+.OpacityAnimation3 {
+    transition: 3.6s ease-in-out;
+}
+
+.OpacityAnimation4 {
+    transition: 4.4s ease-in-out;
+}
+
+/* ---------------  Animation Is Here --------------- */
+
+
+
+.CenterLineCollage.showAnimation {
+    scale: 1;
+    opacity: 1;
+}
+
+.OpacityAnimation1.showAnimation {
+    top: -295px;
+}
+
+.OpacityAnimation2.showAnimation {
+    top: -140px;
+}
+
+.OpacityAnimation3.showAnimation {
+    top: 15px;
+}
+
+.OpacityAnimation4.showAnimation {
+    top: 170px;
+}
+
+.Box3Col::before,
+.Box4Col::before {
+    height: 117px;
+}
