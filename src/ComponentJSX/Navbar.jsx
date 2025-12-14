@@ -36,6 +36,7 @@ const Navbar = () => {
         { text: "Renegade Immortal", path: "/explore/renegade_immortal_img" },
         { text: "Solo Leveling", path: "/explore/solo_leveling_img" },
         { text: "Battle through the heaven", path: "/explore/btth_img" },
+        { text: "btth", path: "/explore/btth_img" },
         { text: "One Piece", path: "/explore/one_piece_img" },
         { text: "Naurto", path: "/explore/naurto_img" },
         { text: "Girls Fashion", path: "/explore/girlsfashion" },
