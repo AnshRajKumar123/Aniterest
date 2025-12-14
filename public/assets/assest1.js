@@ -122,7 +122,7 @@ export const OnePieceImg = generateImageArray('./OnePieceImg/Img', 60, {
     namePrefix: 'One Piece'
 });
 
-export const BtthImg = generateImageArray('./BtthImg/Img', 80, {
+export const BtthImg = generateImageArray('./BtthImg/Img', 87, {
     prefix: 'Btth',
     category: 'Btth',
     namePrefix: 'Btth'
