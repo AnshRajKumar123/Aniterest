@@ -87,6 +87,18 @@ const Navbar = () => {
                 <Link to='/' className="FirstLineSet">
                     <h1>Aniterest</h1>
                 </Link>
+
+                <div className="MiddleLineSet">
+                    <div onClick={() => setIsSearchVisible(true)} className="SearchOnClick">
+                        <i className="ri-search-line"></i>
+                        <input type="text" placeholder='Search High Quality Images / Photos' />
+                        <button>
+                            <i class='bx bx-command' ></i>
+                            <span>K</span>
+                        </button>
+                    </div>
+                </div>
+
                 <div className="ThirdLineSet">
                     <div className="OptionsBtn">
                         <div className="InsideOptions">
@@ -101,10 +113,6 @@ const Navbar = () => {
                                 <Link to='/about'>About Us</Link>
                             </div>
                         </div>
-                    </div>
-
-                    <div onClick={() => setIsSearchVisible(true)} className="SearchOnClick">
-                        <i className="ri-search-line"></i>
                     </div>
 
                     <div className="TripleDot">
