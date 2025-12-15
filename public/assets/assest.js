@@ -90,6 +90,17 @@ import FirstPageImg8 from './SearchPopImg/FirstPageImg8.jpeg'
 import FirstPageImg9 from './SearchPopImg/FirstPageImg9.jpeg'
 import FirstPageImg10 from './SearchPopImg/FirstPageImg10.jpeg'
 
+import ImageRotater1 from './AboutImg/ImageRotater1.jpeg'
+import ImageRotater2 from './AboutImg/ImageRotater2.jpeg'
+import ImageRotater3 from './AboutImg/ImageRotater3.jpeg'
+import ImageRotater4 from './AboutImg/ImageRotater4.jpeg'
+import ImageRotater5 from './AboutImg/ImageRotater5.jpeg'
+import ImageRotater6 from './AboutImg/ImageRotater6.jpeg'
+import ImageRotater7 from './AboutImg/ImageRotater7.jpeg'
+import ImageRotater8 from './AboutImg/ImageRotater8.jpeg'
+import ImageRotater9 from './AboutImg/ImageRotater9.jpeg'
+import ImageRotater10 from './AboutImg/ImageRotater10.jpeg'
+
 import About1 from './AboutImg/About1.jpeg'
 import About2 from './AboutImg/UserIcon.png'
 import About3 from './AboutImg/ImageIcon.png'
@@ -192,4 +203,18 @@ export const Eternity = {
     FirstPageImg8,
     FirstPageImg9,
     FirstPageImg10,
+
 }
+
+export const Eternity2 = [
+    ImageRotater1,
+    ImageRotater2,
+    ImageRotater3,
+    ImageRotater4,
+    ImageRotater5,
+    ImageRotater6,
+    ImageRotater7,
+    ImageRotater8,
+    ImageRotater9,
+    ImageRotater10,
+]
