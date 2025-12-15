@@ -16,7 +16,7 @@ const App = () => {
     <div className='MainBGColor'>
       <ScrollToTop />
       <ToastContainer
-        position="bottom-right"   // 👈 options: top-right, top-center, top-left, bottom-right, bottom-center, bottom-left
+        position="bottom-right"
         autoClose={3000}
         hideProgressBar={false}
         newestOnTop={false}
@@ -25,7 +25,7 @@ const App = () => {
         pauseOnFocusLoss
         draggable
         pauseOnHover
-        theme="dark"              // 👈 options: light, dark, colored
+        theme="dark"
       />
 
       <SplashScreen />
