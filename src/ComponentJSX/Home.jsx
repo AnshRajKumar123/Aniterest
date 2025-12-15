@@ -1,9 +1,9 @@
 import React from 'react'
-import Hero from './Hero'
 import LatestCollection from './LatestCollection'
 import LatestLibrary from './LatestLibrary'
 import LatestStyling from './LatestStyling'
 import useTitle from './useTitle'
+import FirstPage from './FirstPage'
 
 const Home = () => {
 
@@ -11,7 +11,7 @@ const Home = () => {
 
     return (
         <>
-            <Hero />
+            <FirstPage />
             <LatestCollection />
             <LatestLibrary />
             <LatestStyling />

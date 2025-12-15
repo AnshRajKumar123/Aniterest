@@ -79,6 +79,17 @@ import SearchBarColl7 from './SearchPopImg/BFlow1B.jpeg'
 import SearchBarColl8 from './SearchPopImg/BFlow2B.jpeg'
 import SearchBarColl9 from './SearchPopImg/BFlow3B.jpeg'
 
+import FirstPageImg1 from './SearchPopImg/FirstPageImg1.jpeg'
+import FirstPageImg2 from './SearchPopImg/FirstPageImg2.jpeg'
+import FirstPageImg3 from './SearchPopImg/FirstPageImg3.jpeg'
+import FirstPageImg4 from './SearchPopImg/FirstPageImg4.jpeg'
+import FirstPageImg5 from './SearchPopImg/FirstPageImg5.jpeg'
+import FirstPageImg6 from './SearchPopImg/FirstPageImg6.jpeg'
+import FirstPageImg7 from './SearchPopImg/FirstPageImg7.jpeg'
+import FirstPageImg8 from './SearchPopImg/FirstPageImg8.jpeg'
+import FirstPageImg9 from './SearchPopImg/FirstPageImg9.jpeg'
+import FirstPageImg10 from './SearchPopImg/FirstPageImg10.jpeg'
+
 import About1 from './AboutImg/About1.jpeg'
 import About2 from './AboutImg/UserIcon.png'
 import About3 from './AboutImg/ImageIcon.png'
@@ -170,4 +181,15 @@ export const Eternity = {
     About2,
     About3,
     About4,
+
+    FirstPageImg1,
+    FirstPageImg2,
+    FirstPageImg3,
+    FirstPageImg4,
+    FirstPageImg5,
+    FirstPageImg6,
+    FirstPageImg7,
+    FirstPageImg8,
+    FirstPageImg9,
+    FirstPageImg10,
 }

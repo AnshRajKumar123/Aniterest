@@ -1,0 +1,135 @@
+.FirstPageSect {
+    height: calc(100vh - 80px);
+    width: 100%;
+    position: relative;
+    top: 80px;
+    overflow: hidden;
+    padding: 50px 100px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.OverSideFrame {
+    padding: 25px;
+    border: 5px solid #E7FBF6;
+    height: 750px;
+    width: 520px;
+    display: flex;
+    align-items: start;
+    justify-content: center;
+    background-color: #071C52;
+    border-radius: 10px;
+    flex-direction: column;
+    position: relative;
+    z-index: 1;
+}
+
+.BeforeBox,
+.AfterBox,
+.NormalState {
+    content: '';
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    background-color: inherit;
+    border: 5px solid #E7FBF6;
+    border-radius: 10px;
+    top: 0;
+    left: 0;
+    box-shadow: 5px 5px 13px 10px rgba(0, 0, 0, 0.2);
+    z-index: -1;
+}
+
+.BeforeBox {
+    transform: rotate(-5deg);
+}
+
+.AfterBox {
+    transform: rotate(5deg);
+}
+
+.NormalState {
+    transform: rotate(0deg);
+    border-radius: 0px;
+}
+
+.ImageFrame {
+    border: 5px solid #E7FBF6;
+    height: 650px;
+    width: 100%;
+    overflow: hidden;
+}
+
+.OverSideFrame h1 {
+    font-family: var(--Font2);
+    color: #fff;
+    padding-top: 1rem;
+    letter-spacing: 1px;
+}
+
+.ImageFrame img {
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    object-position: top;
+}
+
+.RightSideSection {
+    width: 53%;
+    margin-top: 70px;
+}
+
+.RightSideSection h1 {
+    font-family: var(--Font3);
+    letter-spacing: -2px;
+    font-size: 4rem;
+    margin-bottom: 1rem;
+}
+
+.RightSideSection p {
+    font-family: var(--Font2);
+    font-size: 1.5rem;
+    letter-spacing: 1.4px;
+    line-height: 2rem;
+}
+
+.RightSideSection button {
+    margin-top: 30px;
+    padding: 11px 35px;
+    font-size: 20px;
+    font-weight: 500;
+    font-family: var(--Font3);
+    border-radius: 5px;
+    cursor: pointer;
+    background-color: #071C52;
+    color: #fff;
+    border: none;
+}
+
+#Creater {
+    margin-top: 3.5rem;
+    font-size: 1.3rem;
+    color: #00000072;
+}
+
+.fadeImage {
+    animation: fadeEffect 2.5s ease-in-out infinite;
+}
+
+@keyframes fadeEffect {
+    0% {
+        opacity: 0;
+    }
+
+    15% {
+        opacity: 1;
+    }
+
+    85% {
+        opacity: 1;
+    }
+
+    100% {
+        opacity: 0;
+    }
+}
