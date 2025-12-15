@@ -4,6 +4,7 @@ import { CategoryBanner, CombineImage } from "../../public/assets/assest1";
 import { toast } from "react-toastify";
 import ImagePopUp from "../ComponentJSX/ImagePop";
 import useTitle from '../ComponentJSX/useTitle'
+import '../ExploreCcss/ExploreImageM.css'
 
 const ExploreImageM = () => {
 
