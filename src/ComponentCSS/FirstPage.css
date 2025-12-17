@@ -133,3 +133,21 @@
         opacity: 0;
     }
 }
+
+.ImageFrame img {
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    object-position: top;
+    will-change: transform, opacity;
+}
+
+.OverSideFrame {
+    position: relative;
+    will-change: transform;
+}
+
+.BeforeBox,
+.AfterBox {
+    will-change: transform;
+}
