@@ -36,7 +36,15 @@ const FirstPage = () => {
             <section className='FirstPageSect'>
                 <div className="RightSideSection">
                     <h1>Hello Viwers !!</h1>
-                    <p>Aniterest is a modern image-browsing platform designed for creators, designers, and anyone who values visual inspiration. The homepage offers a clean, distraction-free experience with a powerful search feature that helps users discover high-quality images effortlessly. Whether you are exploring ideas, collecting references, or simply browsing for inspiration, Aniterest makes the process smooth and enjoyable. Images are presented in a well-structured grid layout, allowing quick scanning and easy access to content. The overall design feels minimal, fast, and intuitive, keeping the focus on visuals rather than clutter. Aniterest blends functionality with a relaxed user experience, making it a reliable place to explore, search, and get inspired without unnecessary complexity.</p>
+                    <p>Aniterest is a modern image-browsing platform designed for creators, designers, and anyone
+                        who values visual inspiration. The homepage offers a clean, distraction-free experience
+                        with a powerful search feature that helps users discover high-quality images effortlessly.
+                        Whether you are exploring ideas, collecting references, or simply browsing for inspiration,
+                        Aniterest makes the process smooth and enjoyable. Images are presented in a well-structured
+                        grid layout, allowing quick scanning and easy access to content. The overall design feels
+                        minimal, fast, and intuitive, keeping the focus on visuals rather than clutter. Aniterest
+                        blends functionality with a relaxed user experience, making it a reliable place to explore,
+                        search, and get inspired without unnecessary complexity.</p>
                     <Link to='/collection'>
                         <button>Your Collection</button>
                     </Link>
