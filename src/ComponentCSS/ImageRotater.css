@@ -30,7 +30,7 @@
 .banner .slider {
     position: absolute;
     width: 200px;
-    height: 250px;
+    height: 280px;
     top: 10%;
     left: calc(50% - 100px);
     transform-style: preserve-3d;
